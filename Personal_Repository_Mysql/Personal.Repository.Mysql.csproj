@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Personal_Common\Personal.Common.csproj" />
+    <ProjectReference Include="..\Personal_Repository_Share\Personal.Repository.Share.csproj" />
+  </ItemGroup>
+
 </Project>
